@@ -1,9 +1,9 @@
 # Learning Predictive Vehicle-Terrain Interaction for Safe Off-Road Navigation
 
 **A safe, efficient, and agile ground vehicle navigation algorithm for 3D off-road terrain environments.**
-<<## Usage
-This GitHub repository is currently under construction, and we will be updating it with comprehensive instructions on setting up the environment and running the code.
->>
+
+**This GitHub repository is currently under construction, and we will be updating it with comprehensive instructions on setting up the environment and running the code.**
+
 ## System architecture
 <img src="https://github.com/HMCL-UNIST/Interaction-aware-3DOffroad/assets/32535170/3360407b-6669-4f22-9066-292ad76d356e" width="500">
 
