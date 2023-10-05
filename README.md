@@ -31,7 +31,7 @@ pip install gpytorch
 Use the following commands to download and compile the package.
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/HMCL-UNIST/Interaction-aware-3DOffroad.git 
+git clone https://github.com/HMCL-UNIST/LPVTI-Offroad-Navigation.git 
 cd ..
 catkin build 
 ```
@@ -51,15 +51,15 @@ roslaunch traversability_estimation traversability_estimation.launch
 
 3. Run the predictive vehicle-terrain interaction-aware path planning Module  :
 ```
-roslaunch auc auc_main.launch
+roslaunch pvti_offroad main.launch
 ```
 
-4. Run the Model predictive controller (MPPI) :
+3-1. (To collect training data, Run below instead of main.launch)
 ```
-roslaunch mppi_ctrl mppi_ctrl.launch
+roslaunch pvti_offroad data_logging.launch
 ```
 
-5. Run low level controller 
+4. Run low level controller 
 ```
 roslaunch lowlevel_ctrl lowlevel_ctrl.launch
 ```
