@@ -1,0 +1,174 @@
+<sdf version='1.6'>
+  <world name='default'>
+   <physics name='default_physics' default='0' type='ode'>           
+      <max_step_size>0.001</max_step_size>                
+    </physics>
+
+
+<scene>
+  <ambient>0.4 0.4 0.4 1</ambient>
+  <background>0.7 0.7 0.7 1</background>
+  <!-- modified (shadows) to reduce computation effort, default : true -->
+  <shadows>false</shadows>
+</scene>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <name>grass_mud_patch</name>
+      <uri>model://urdf/models/grass_mud_patch</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <name>mud_patch</name>
+      <uri>model://urdf/models/mud_patch</uri>
+      <pose>0 0 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree</name>
+      <uri>model://oak_tree</uri>
+      <pose>1.12398 3.85524 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_0</name>
+      <uri>model://oak_tree</uri>
+      <pose>-1.6641 3.16466  0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_1</name>
+      <uri>model://oak_tree</uri>
+      <pose>1.510730 -2.267659 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_2</name>
+      <uri>model://oak_tree</uri>
+      <pose>0.44399 6.83074 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_3</name>
+      <uri>model://oak_tree</uri>
+      <pose>3.89764 8.40171 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_4</name>
+      <uri>model://oak_tree</uri>
+      <pose>5.05055 -0.488515 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_5</name>
+      <uri>model://oak_tree</uri>
+      <pose>3.57551 -4.25066 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_6</name>
+      <uri>model://oak_tree</uri>
+      <pose>5.69126 2.3805 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_7</name>
+      <uri>model://oak_tree</uri>
+      <pose>7.30099 -1.9833 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_8</name>
+      <uri>model://oak_tree</uri>
+      <pose>6.01675 -5.24358 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_9</name>
+      <uri>model://oak_tree</uri>
+      <pose>4.05101 -7.09561 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_10</name>
+      <uri>model://oak_tree</uri>
+      <pose>7.90329 20.1686 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_11</name>
+      <uri>model://oak_tree</uri>
+      <pose>4.3212 13.8862 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_12</name>
+      <uri>model://oak_tree</uri>
+      <pose>8.65207 8.67858 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_13</name>
+      <uri>model://oak_tree</uri>
+      <pose>12.2057 1.03446 0 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>oak_tree_14</name>
+      <uri>model://oak_tree</uri>
+      <pose>-4.14217 5.32718 0 0 -0 0.831343</pose>
+    </include>
+
+    
+    <include>
+      <name>debris1</name>
+      <uri>model://urdf/models/debris_1_1</uri>
+      <pose>0 0 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>debris2</name>
+      <uri>model://urdf/models/debris_1_1</uri>
+      <pose>4.23576 -0.929838 0.264196 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>debris3</name>
+      <uri>model://urdf/models/debris_1_1</uri>
+      <pose>1.4189 -4.54056 0.264196 0 -0 0</pose>
+    </include>
+ 
+    <include>
+      <name>debris4</name>
+      <uri>model://urdf/models/debris_1_1</uri>
+      <pose>2.27868 7.22699 0.264196 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>debris5</name>
+      <uri>model://urdf/models/debris_1_1</uri>
+      <pose>0.001502 5.90573 0.264196 0 -0 0</pose>
+    </include>
+
+    <include>
+      <name>debris6</name>
+      <uri>model://urdf/models/debris_1_1</uri>
+      <pose>6.30186 9.22938 0.264196 0 -0 0</pose>
+    </include>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>-3.23 -6.66 2.26 0.0 0.2719 0.936</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>

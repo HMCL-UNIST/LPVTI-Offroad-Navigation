@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="ocean_1">
+    <pose>0 0 0 0 0 0</pose>
+    <static>true</static>
+    <link name="body">
+      <visual name="visual">
+         <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>            
+            <!-- <normal>0.34205 0 0.9396</normal> -->
+            <!-- <normal>0.1736 0 0.9848</normal> -->
+            <!-- <normal>0.087159 0 0.996194</normal> -->
+            <normal>0 0 1</normal>
+            <size>30 30 10</size>
+          </plane>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://urdf/models/ocean_1/media/scripts</uri>
+            <uri>model://urdf/models/ocean_1/media/Textures</uri>
+            <name>UUVSimulator/StaticWater</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

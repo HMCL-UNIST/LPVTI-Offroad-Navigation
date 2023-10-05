@@ -1,0 +1,24 @@
+material RepeatedGrass/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 0.8 0.8 0.8 
+      diffuse 0.8 0.8 0.8 
+
+      scene_blend alpha_blend
+
+      texture_unit
+      {
+        // Relative to the location of the material script
+        texture Grass.jpg
+        filtering bilinear
+        max_anisotropy 16
+        scale 0.05 0.05
+        // Repeat the texture over the surface (4 per face)
+      }
+    }
+  }
+}

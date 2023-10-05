@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="grass_only_terrain">
+    <pose>0 0 0 0 0 0</pose>
+    <static>true</static>
+    <link name="body">
+     <collision name='collision'>
+        <geometry>
+            <mesh><uri>model://urdf/models/grass_only_terrain/media/grass_only_terrain.dae</uri></mesh>
+          </geometry>
+          <!-- <max_contacts>1</max_contacts> -->
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>100</mu2>
+              </ode>            
+            </friction>
+          </surface>
+        </collision>
+      <visual name="visual">
+         <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh><uri>model://urdf/models/grass_only_terrain/media/grass_only_terrain.dae</uri></mesh>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://urdf/models/grass_only_terrain/media/scripts</uri>
+            <uri>model://urdf/models/grass_only_terrain/media/Textures</uri>
+            <name>RepeatedGrass/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
+

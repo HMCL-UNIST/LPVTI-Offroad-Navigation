@@ -1,0 +1,21 @@
+material MUD/StaticMUD
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 0.8
+      diffuse 1.0 1.0 1.0 0.8
+
+      scene_blend alpha_blend
+      
+      texture_unit
+      {
+        // Relative to the location of the material script
+        texture mud3.jpeg
+        // Repeat the texture over the surface (4 per face)
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="pvti_offroad" type="pvtioffroad_main.py" name="planner_main_node" output="screen">        
+    </node>
+    
+     
+</launch>

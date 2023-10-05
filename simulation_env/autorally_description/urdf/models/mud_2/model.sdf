@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="mud_2">
+    <pose>0 0 0 0 0 0</pose>
+    <static>true</static>
+    <link name="body">
+     <collision name='collision'>
+        <geometry>
+            <mesh><uri>model://urdf/models/mud_2/media/mud_2.dae</uri></mesh>
+          </geometry>
+          <max_contacts>1</max_contacts>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.15</mu>
+                <mu2>0.15</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+      <visual name="visual">
+         <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh><uri>model://urdf/models/mud_2/media/mud_2.dae</uri></mesh>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://urdf/models/mud_2/media/scripts</uri>
+            <uri>model://urdf/models/mud_2/media/Textures</uri>
+            <name>MUD/StaticMUD</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
+

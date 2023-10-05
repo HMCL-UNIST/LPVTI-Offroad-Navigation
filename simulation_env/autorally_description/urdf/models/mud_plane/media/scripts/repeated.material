@@ -1,0 +1,16 @@
+material MUD/StaticMUD
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        // Relative to the location of the material script
+        texture mud3.jpeg
+        // Repeat the texture over the surface (4 per face)
+      }
+    }
+  }
+}

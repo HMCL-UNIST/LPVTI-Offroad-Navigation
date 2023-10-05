@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="pvti_offroad" type="data_logging.py" name="data_logging_node" output="screen">        
+    </node>
+    
+     
+</launch>
