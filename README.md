@@ -1,20 +1,9 @@
 # Learning Predictive Vehicle-Terrain Interaction for Safe Off-Road Navigation
 
-**A safe, efficient, and agile ground vehicle navigation algorithm for 3D off-road terrain environments. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch).**
-
-
-<p align='center'>
-    <img src="/jpg/gpmppi3.gif" alt="drawing" width="50"/>
-    <img src="/jpg/hojin1.jpg" alt="drawing" width="70"/>
-</p>
-
-
-
+**A safe, efficient, and agile ground vehicle navigation algorithm for 3D off-road terrain environments.**
 
 ## System architecture
-![algorithm](https://github.com/HMCL-UNIST/Interaction-aware-3DOffroad/assets/32535170/3360407b-6669-4f22-9066-292ad76d356e)
-
-
+<img src="https://github.com/HMCL-UNIST/Interaction-aware-3DOffroad/assets/32535170/3360407b-6669-4f22-9066-292ad76d356e" width="600">
 
 We design a system that learns the terrain-induced uncertainties from driving data and encodes the learned uncertainty distribution into the
 traversability cost for path evaluation. The navigation path is then designed to optimize the uncertainty-aware traversability cost, resulting in a safe and agile vehicle maneuver.  
