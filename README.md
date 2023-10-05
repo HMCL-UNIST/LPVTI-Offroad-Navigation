@@ -4,8 +4,8 @@
 
 
 <p align='center'>
-    <img src="/jpg/gpmppi3.gif" alt="drawing" width="200"/>
-    <img src="/jpg/hojin1.jpg" alt="drawing" width="140"/>
+    <img src="/jpg/gpmppi3.gif" alt="drawing" width="50"/>
+    <img src="/jpg/hojin1.jpg" alt="drawing" width="70"/>
 </p>
 
 
