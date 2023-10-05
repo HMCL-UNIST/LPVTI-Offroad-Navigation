@@ -3,7 +3,7 @@
 **A safe, efficient, and agile ground vehicle navigation algorithm for 3D off-road terrain environments.**
 
 ## System architecture
-<img src="https://github.com/HMCL-UNIST/Interaction-aware-3DOffroad/assets/32535170/3360407b-6669-4f22-9066-292ad76d356e" width="600">
+<img src="https://github.com/HMCL-UNIST/Interaction-aware-3DOffroad/assets/32535170/3360407b-6669-4f22-9066-292ad76d356e" width="500">
 
 We design a system that learns the terrain-induced uncertainties from driving data and encodes the learned uncertainty distribution into the
 traversability cost for path evaluation. The navigation path is then designed to optimize the uncertainty-aware traversability cost, resulting in a safe and agile vehicle maneuver.  
