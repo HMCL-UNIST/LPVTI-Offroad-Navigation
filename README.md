@@ -66,11 +66,6 @@ roslaunch lowlevel_ctrl lowlevel_ctrl.launch
 
 
 
-## Paper 
-Hojin Lee, Sanghun Lee, and Cheolhyeon Kwon, Learning Predictive Vehicle-Terrain Interaction for Safe Off-Road Navigation
-, Submitted to 2024 ICRA
-
-
 ## Acknowledgement
  **I would like to express my sincere thanks to following**
 - Our 3D Simulation environment and the Gazebo vehicle model is based on Autorally research platform  
